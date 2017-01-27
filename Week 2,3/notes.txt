@@ -1,0 +1,24 @@
+urls.py
+
+settings.py
+
+db
+middleawre
+
+static: css javascript and imagaes
+media
+
+by default database sqite3
+
+decorator,
+loopback ip,
+significance of 0.0.0.0:8000
+
+Adding the ip:port argument allows machines other than your own to access your development application. Once you are ready to deploy your application, I recommend taking a look at the chapter on Deploying Django on the djangobook
+
+If you are using Oracle's MySQL connector your ENGINE line should look like this:
+
+'ENGINE': 'mysql.connector.django',
+
+Username : admin2
+pass: admin2

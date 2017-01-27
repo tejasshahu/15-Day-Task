@@ -1,0 +1,26 @@
+*{
+	color: black;
+}
+
+h1{
+	color: red;
+	text-align: center;
+}
+
+.center_bold{
+	text-align: center;
+	font-weight: bold;
+}
+
+#box-one{
+	background-color : gray;
+}
+
+#box-two{
+	background-color : yellow;
+	padding: 10px;
+}
+
+body > p {
+	color: green;
+}

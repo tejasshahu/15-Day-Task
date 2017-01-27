@@ -1,0 +1,1 @@
+Completed day2 and day3 pending topics and updated on trello comments

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Ecolibrium Energy
+	</title>
+	<link rel="shortcut icon" href="D:\Study\Tejas\Sem 8\Work Done at Ecolibrium Energy\Week 2,3\template\Eco-logo-white-footer.png" />
+	<style type="text/css">
+		h1{
+			-webkit-animation-duration: 5s;
+			-webkit-animation-name: slidein;	
+		}	
+		@-webkit-keyframes slidein{
+			from{
+				margin-left: 100%;
+				width: 300%;
+			}
+			to{
+				margin-left: 0%;
+				width: 100%;
+			}
+		}
+
+		.css{
+				margin: 10px;
+				padding: 5px;
+				border: 2px solid black;
+				width: 50px;
+			}
+
+		#multibg{
+			background-image: url(D:\Study\Tejas\Sem 8\Work Done at Ecolibrium Energy\Week 2,3\template\Home-Slider-1.jpg), url(D:\Study\Tejas\Sem 8\Work Done at Ecolibrium Energy\Week 2,3\template\Eco-logo-white-footer.png) ;
+			background-position: left-top, left-bottom;
+			background-repeat: no-repeat, repeat;
+			padding: 75px;
+		}
+	</style>
+
+	<script type="text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+	</script>
+
+	<script type="text/javascript" language="javascript">
+		$(document).ready(function() {
+			$("#div1").click(function() {
+				var content= $(this).html();
+				$("#result").text( content );	
+			});
+
+			$("#div1").click(function( event ) {
+					alert('Hi there!');
+			});
+
+			$("section").click(function() {
+				$(this).replaceWith("<h1>Replaced because of jQuery</h1>");	
+			});
+
+			$('#div2').click(function() {
+				$(this).remove();	
+			});
+
+			$('#div3').click(function() {
+				$(this).before('<div class="css"></div>');	
+			});
+	});
+	</script>
+</head>
+<body>
+	<div id="multibg">
+		<h1 span style="color: green;">Welcome to Ecolibrium Energy Website</h1></span>
+		<p>Click on below box</p>
+		<span id="result"></span>
+		<div id="div1" class="css" style="background-color: red;">
+			This is Red Square.
+		</div>
+		<section id="section1" class="css">
+			This is Section.
+		</section>
+		<div id="div2" style="background-color: yellow;">
+			Yellow.
+		</div>
+		<div id="div3" style="background-color: green;">
+			Green.
+		</div>
+	</div>
+</body>
+</html>
