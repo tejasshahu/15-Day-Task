@@ -126,3 +126,10 @@ https://docs.djangoproject.com/en/1.10/topics/forms/modelforms/#the-save-method
 (31)
 Get absolute url:
 https://docs.djangoproject.com/en/1.10/ref/models/instances/#django.db.models.Model.get_absolute_url
+
+(32)
+
+https://api.jqueryui.com/dialog/
+
+
+##
