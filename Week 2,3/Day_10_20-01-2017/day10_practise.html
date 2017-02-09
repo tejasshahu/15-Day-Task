@@ -20,6 +20,31 @@
 	<meta http-equiv="refresh" content="15"/>
 </head>
 <body>
+	Navigation Bar justified Example
+	<ul class="nav nav-tabs nav-justified">
+		<li role="presentation" class="active"><a href="#">Home</a></li>
+		<li role="presentation"><a href="#">Profile</a></li>
+		<li role="presentation"><a href="#">Messages</a></li>
+	</ul>
+	<br>
+	Navigation Pills Example
+	<ul class="nav nav-pills">
+		<li role="presentation" class="active"><a href="#">Home</a></li>
+		<li role="presentation" class="disabled"><a href="#">Profile</a></li>
+		<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" >Dropdown<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">1</a></li>
+			</ul>
+		</li>
+	</ul>
+	<br>
+	Navigation Pill Stacked Example
+	<ul class="nav nav-pills nav-stacked">
+		<li role="presentation" class="active"><a href="#">Home</a></li>
+		<li role="presentation"><a href="#">Profile</a></li>
+		<li role="presentation"><a href="#">Messages</a></li>
+	</ul>
+	
 	<button type="button" class="btn btn-default" aria-label="Left Align">
 		<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
 	</button>
@@ -28,7 +53,6 @@
 	</button>
 	<div class="alert alert-danger" role="alert">
 		<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-		<span class="sr-only">Error:</span>
 		Enter a Valid Email ID
 	</div>
 	<div class="dropdown">
@@ -54,6 +78,5 @@
 		<div class="btn-group" role="group" area-label="">2</div>
 		<div class="btn-group" role="group" area-label="">3</div>
 	</div>
-
 </body>
 </html>
